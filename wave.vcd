@@ -1,0 +1,246 @@
+$date
+	Sat Nov  9 22:08:06 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module fifo_tb $end
+$var wire 10 ! out_data [9:0] $end
+$var wire 1 " full $end
+$var wire 1 # empty $end
+$var wire 5 $ cur_size [4:0] $end
+$var reg 1 % clk $end
+$var reg 10 & data [9:0] $end
+$var reg 1 ' pop $end
+$var reg 1 ( push $end
+$var reg 1 ) reset $end
+$scope module uut $end
+$var wire 1 % clk $end
+$var wire 10 * inp_data [9:0] $end
+$var wire 1 ' pop $end
+$var wire 1 ( push $end
+$var wire 1 ) reset $end
+$var wire 1 " full $end
+$var wire 1 # empty $end
+$var wire 5 + cur_size [4:0] $end
+$var reg 5 , front [4:0] $end
+$var reg 10 - out_data [9:0] $end
+$var reg 1 . pop_state $end
+$var reg 1 / push_state $end
+$var reg 5 0 rear [4:0] $end
+$var integer 32 1 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000 1
+b0 0
+0/
+0.
+b0 -
+b0 ,
+b0 +
+b0 *
+1)
+0(
+0'
+b0 &
+1%
+b0 $
+1#
+0"
+b0 !
+$end
+#200
+0)
+0%
+#600
+1%
+#800
+0%
+#1000
+1%
+#1200
+0%
+#1400
+1%
+#1600
+0%
+#1800
+1%
+#2000
+0%
+#2200
+0#
+b1 $
+b1 +
+b1 ,
+1/
+1(
+b1 &
+b1 *
+1%
+#2400
+0(
+0%
+#2600
+0/
+1%
+#2800
+0%
+#3200
+b10 $
+b10 +
+b10 ,
+1/
+1(
+b10 &
+b10 *
+1%
+#3400
+0(
+0%
+#3600
+0/
+1%
+#3800
+0%
+#4200
+b11 $
+b11 +
+b11 ,
+1/
+1(
+b11 &
+b11 *
+1%
+#4400
+0(
+0%
+#4600
+0/
+1%
+#4800
+0%
+#5200
+b100 $
+b100 +
+b100 ,
+1/
+1(
+b100 &
+b100 *
+1%
+#5400
+0(
+0%
+#5600
+0/
+1%
+#5800
+0%
+#6200
+b11 $
+b11 +
+b1 0
+b1 !
+b1 -
+1.
+1'
+b101 &
+b101 *
+1%
+#6400
+0'
+0%
+#6600
+0.
+1%
+#6800
+0%
+#7000
+b10 $
+b10 +
+b10 0
+b10 !
+b10 -
+1.
+1'
+b110 &
+b110 *
+1%
+#7200
+0'
+0%
+#7400
+0.
+1%
+#7600
+0%
+#7800
+b1 $
+b1 +
+b11 0
+b11 !
+b11 -
+1.
+1'
+b111 &
+b111 *
+1%
+#8000
+0'
+0%
+#8200
+0.
+1%
+#8400
+0%
+#8600
+1#
+b0 $
+b0 +
+b100 0
+b100 !
+b100 -
+1.
+1'
+b1000 &
+b1000 *
+1%
+#8800
+0'
+0%
+#9000
+0.
+1%
+#9200
+0%
+#9400
+1'
+b1001 &
+b1001 *
+1%
+#9600
+0'
+0%
+#9800
+1%
+#10000
+0%
+#10200
+1'
+b1010 &
+b1010 *
+1%
+#10400
+0'
+0%
+#10600
+1%
+#10800
+0%
